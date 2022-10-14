@@ -1,4 +1,5 @@
-import './style.css'
+// TODO: only in modules
+// import './style.css'
 
 // document.querySelector('#app').innerHTML = `
 //   <div>

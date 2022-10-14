@@ -17,6 +17,11 @@ mainWrapper.onscroll = e => {
   }
 }
  
+// Attach fn globally
+window.toggleNav = () => {
+  const active = mainWrapper.scrollTop === 0 ? "active" : "fixed";
+
+  main.dataset.nav = main.dataset.nav === active ? "inactive" : active;
 }
 
     
